@@ -3,16 +3,16 @@
 <div class="g-row" id="doc-ref">
 	<div class="g-12">
         <h1>Uruchamianie przykładów</h1>
-        <p>Dokumentacja Agile Toolkit zawiera szereg przykładów. Dla każdego przykładowego kodu przygotowany został
-        w pełni funkcjonalny element strony, dzięki czemu od razu można przetestować przykładowy kod. Zresztą zobaczcie
+        <p>Dokumentacja Agile Toolkit zawiera szereg przykładów. Dla każdego z nich przygotowany został
+        w pełni funkcjonalny element strony, dzięki czemu od razu można przetestować swój kod. Zresztą zobaczcie
         sami:</p>
 
 <?Example?>
 $button=$page->add('Button')
-    ->setLabel('Button')
+    ->setLabel('Przycisk')
     ->js('click')
     ->univ()
-    ->alert('My First Button');
+    ->alert('Mój pierwszy przycisk');
 <?/?>
 
         <p>Sprawdźmy, czy możecie wykonać ten kod w waszej lokalnej wersji aplikacji opartej o Agile Toolkit. Skopiujcie
@@ -23,11 +23,11 @@ $button=$page->add('Button')
         <h3>Jak to działa?</h3>
         <p>Framework Agile Toolkit całkowicie odziela kod od pezentacji. Dlatego właśnie nie musisz się martwić jak
         dodany właśnie do strony przycisk będzie wyglądał. Prawdopodobnie w Twojej lokalnej aplikacji wygląda zupełnie
-        inaczej niż w dokumentacji. Prawdopodobnie nie jest nawet zielony</p>
+        inaczej niż w dokumentacji. Możliwe, że nie jest nawet zielony.</p>
 
-        <p>Dzieje się tak dlatego, ponieważ klasa przycisku posiada przypisany do siebie szablon. Szablon, który masz
+        <p>Dzieje się tak dlatego, ponieważ klasa przycisku posiada przypisany do siebie szablon. Ten, który masz
         zapisany lokalnie różni się od szablonów zastosowanych w dokumentacji, którą właśnie czytasz. Tak naprawdę, to
-        różni się tylko zawartość pliku CSS. Nie znasz HTML/CSS? Nic nie szkodzi.</p>
+        inna jest tylko zawartość pliku CSS. Nie znasz HTML/CSS? Nic nie szkodzi.</p>
 
 
     </div>
